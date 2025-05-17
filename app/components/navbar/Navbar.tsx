@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 
 const Navbar = () => {
@@ -7,7 +8,12 @@ const Navbar = () => {
             <div className="max-w[1500px] mx-auto px-6">
                 <div className="flex justify-between items-center">
                     <Link href="/">
-                        MedAide
+                        <Image
+                            src="/logo.png"
+                            alt="MedAide logo"
+                            width={180}
+                            height={38}
+                        />
                     </Link>
                 </div>
             </div>
