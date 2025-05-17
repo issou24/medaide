@@ -12,8 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --medaide: #d50027; /* Dark mode color */
-    --medaide-dark: #ff385c; /* Dark mode color */
+    --medaide:  #ff385c; 
+    --medaide-dark: #d50027; 
   }
 }
 
