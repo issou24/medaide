@@ -18,11 +18,11 @@ const Navbar = () => {
                         />
                     </Link>
                     <div className="flex space-x-6">
-                         <SearchFilters />
+                         Dépose un candi
                     </div>
 
                     <div className="flex items-center space-x-6">
-                        Add prop user 
+                        <SearchFilters /> 
                     </div>
                 </div>
             </div>
