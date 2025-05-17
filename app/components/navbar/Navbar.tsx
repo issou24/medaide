@@ -15,6 +15,13 @@ const Navbar = () => {
                             height={38}
                         />
                     </Link>
+                    <div className="flex space-x-6">
+                         recherche 
+                    </div>
+
+                    <div className="flex items-center space-x-6">
+                        Add prop user 
+                    </div>
                 </div>
             </div>
         </nav>
