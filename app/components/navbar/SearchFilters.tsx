@@ -1,6 +1,6 @@
 const SearchFilters = ()  => {
     return (
-        <div className="h-[64px] flex flex-row items-center justify-between border rounded-full">
+        <div className="h-[48px] lg:h-[64px] flex flex-row items-center justify-between border rounded-full">
   
   {/* Bloc des champs - visible uniquement en grand écran */}
             <div className="hidden lg:flex flex-row items-center justify-between">
@@ -11,13 +11,13 @@ const SearchFilters = ()  => {
                 </div>
 
     {/* Date d'arrivée */}
-                <div className="cursor-pointer h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
+                <div className="cursor-pointer lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
                     <p className="text-xs font-semibold">Date d'arrivée :</p>
                     <p className="text-sm">Ajouter une date</p>
                 </div>
 
     {/* Date de départ */}
-                <div className="cursor-pointer h-[48px] lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
+                <div className="cursor-pointer lg:h-[64px] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
                     <p className="text-xs font-semibold">Date de départ :</p>
                     <p className="text-sm">Ajouter une date</p>
                 </div>
