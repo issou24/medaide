@@ -1,13 +1,9 @@
-import Image from "next/image";
-import './globals.css';
-
+import Categories from "./components/Categories";
 
 export default function Home() {
   return (
-    <main className="">
-      MedAide
-    
-      <h2 className="text-medaide">Medaide</h2>
+    <main className="max-w-[1500px] mx-auto px-6">
+      <Categories />
     </main>
   );
 }
