@@ -1,6 +1,23 @@
+import Image from "next/image"
+
 const ApplicationListItem = () => {
     return (
-        <p>goy deter</p>
+        <div className="cursor-pointer">
+            <div className="overflow-hidden relative aspect-square rounded-xl">
+                <Image
+                    fill
+                    src='/beach_1.jpg'
+                    sizes="(max-width: 768px) 768px, (max-width: 1200px): 768px, 768px"
+                    className="hover:scale-110 object-cover transition h-full w-full"
+                    alt="Beach house"
+                />
+            </div>
+
+            <div className="mt-2">
+                <p className="text-lg font-bold text-black-500">App names</p>
+            </div>
+
+        </div>
     )
 }
 

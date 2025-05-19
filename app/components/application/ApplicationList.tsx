@@ -1,6 +1,18 @@
+import ApplicationListItem from "./ApplicationListItem"
+
 const ApplicationList = () => {
     return (
-        <p>goy deter</p>
+        <>
+        <ApplicationListItem />
+
+
+
+
+
+
+        <ApplicationListItem />
+        <ApplicationListItem />
+       </> 
     )
 }
 
