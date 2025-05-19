@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ReservationSidebar from "@/app/components/application/ReservationSidebar";
+import ApplicationSidebar from "@/app/components/application/ApplicationSidebar";
 
 const ApplicationDetailPage = () => {
     return (
@@ -40,7 +40,7 @@ const ApplicationDetailPage = () => {
                     </div>
 
                     
-                    <ReservationSidebar />
+                    <ApplicationSidebar />
                     
                 </div>
         </main>

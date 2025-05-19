@@ -1,4 +1,4 @@
-const ReservationSidebar = () => {
+const ApplicationSidebar = () => {
     return (
         <aside className="mt-6 p-6 col-span-2 rounded-xl border border-gray-300 shadow-xl">
             <h2 className="mb-5 text-2xl">ttttt</h2>
@@ -27,4 +27,4 @@ const ReservationSidebar = () => {
     )
 }
 
-export default ReservationSidebar
+export default ApplicationSidebar
