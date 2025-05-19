@@ -8,12 +8,12 @@ const SearchFilters = ()  => {
                 </div>
 
                 <div className="cursor-pointer h-[48px] lg:h-[64] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
-                        <p className="text-xs font-semibold">Arrivée</p>
+                        <p className="text-xs font-semibold">Date d'arrivée :</p>
                         <p className="text-sm">Ajouter une date</p>
                 </div>
                     
                 <div className="cursor-pointer h-[48px] lg:h-[64] px-8 flex flex-col justify-center rounded-full hover:bg-gray-100">
-                        <p className="text-xs font-semibold">Départ</p>
+                        <p className="text-xs font-semibold">Date de départ :</p>
                         <p className="text-sm">Ajouter une date</p>
                 </div>
 
