@@ -14,7 +14,11 @@ const ApplicationListItem = () => {
             </div>
 
             <div className="mt-2">
-                <p className="text-lg font-bold text-black-500">App names</p>
+                <p className="text-lg font-bold ">App names</p>
+            </div>
+
+            <div className="mt-2">
+                <p className="text-sm text-gray-500"><strong>Durée</strong> de remp</p>
             </div>
 
         </div>
