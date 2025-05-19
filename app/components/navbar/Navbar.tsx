@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import SearchFilters from "./SearchFilters";
 import UserNav from "./UserNav";
+import AddApplicationButton from "./AddApplicationButton";
 
 
 const Navbar = () => {
@@ -19,7 +20,7 @@ const Navbar = () => {
                         />
                     </Link>
                     <div className="flex space-x-6">
-                         Dépose une candi
+                         <AddApplicationButton />
                     </div>
 
                     <div className="flex items-center space-x-6">
