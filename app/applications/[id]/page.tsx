@@ -3,7 +3,7 @@ import ReservationSidebar from "@/app/components/application/ReservationSidebar"
 
 const ApplicationDetailPage = () => {
     return (
-        <main className="maw-w-[1500px] mx-auto px-6">
+        <main className="maw-w-[1500px] mx-auto px-6 pb-6">
             <div className="w-full h-[64vh] mb-4 overflow-hidden rounded-xl relative">
                 <Image
                     fill
