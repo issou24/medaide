@@ -1,3 +1,5 @@
+'use client'
+
 import CustomButton from "../forms/CustomButton";
 
 const ConversationDetail = () => {
@@ -26,6 +28,7 @@ const ConversationDetail = () => {
 
                 <CustomButton 
                     label='Envoyer'
+                    onClick={() => console.log('ok')}
                 />
             </div>
         </>

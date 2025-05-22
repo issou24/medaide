@@ -1,14 +1,18 @@
 interface CustomButtonProps {
-    label: string
+    label: string;
+    onClick: () => void;
 }
 
 
 const CustomButton: React.FC<CustomButtonProps> = ({
-    label
+    label,
+    onClick
 }) => {
     return (
-        <div className="w-full py-4 bg-medaide hover:bg-medaide-dark text-white rounded-xl transition cursor-pointer">
-            {label}
+        <div 
+            onClick={onClick}
+            className="w-full py-4 bg-medaide hover:bg-medaide-dark text-white rounded-xl transition cursor-pointer">
+                {label}
         </div>
     )
 }
