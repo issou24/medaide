@@ -25,10 +25,12 @@ const UserNav = () => {
                    <div className="w-[220px] absolute top-[60px] right-0 rounded-xl bg-white border shadow-md flex flex-col cursor-pointer overflow-hidden">
                         <MenuLink 
                             label='Log in'
+                            onClick={() => console.log('clicked')}
                         />
 
                         <MenuLink 
                             label='Sign up'
+                            onClick={() => console.log('clicked')}
                         />
                     </div>
                 )}
