@@ -5,11 +5,12 @@ import { useState } from "react";
 import MenuLink from "./MenuLink";
 
 const UserNav = () => {
-    const [isOpen, setIsOpen] = useState(true)
+    const [isOpen, setIsOpen] = useState(false)
 
     return( 
             <div className="p-2 relative inline-block border rounded-full">
-                <button 
+                <button
+                    onClick={() => setIsOpen(!isOpen)} 
                     className="flex items-center"
                 >
                     <svg fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
