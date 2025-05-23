@@ -9,7 +9,15 @@ const LoginModal = () => {
     const loginModal = useLoginModal()
 
     const content = (
+        <>
         <h2 className="mb-6 text-2xl">Welcome to MedAide</h2>
+
+        <form className="space-y-4">
+            <input placeholder="E-mail address" type="email" className="w-full h-[54px] px-4 border border-gray-300 rounded-xl" />
+
+            <input placeholder="Your password" type="password" className="w-full h-[54px] px-4 border border-gray-300 rounded-xl" />
+        </form>
+        </>
     )
 
     return (
