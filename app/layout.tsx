@@ -24,11 +24,10 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const content = () => {
-    return (
+  const content = (
       <p>test aze</p>
     )
-  }
+  
 
   return (
     <html lang="en">
@@ -43,7 +42,8 @@ export default function RootLayout({
 
         <Modal 
           label='mod test'
-          content={content()}
+          content={content}
+          isOpen={false}
         />     
       </body>
     </html>
