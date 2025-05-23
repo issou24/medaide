@@ -26,6 +26,10 @@ const UserNav = () => {
                         <MenuLink 
                             label='Log in'
                         />
+
+                        <MenuLink 
+                            label='Sign up'
+                        />
                     </div>
                 )}
             </div>
