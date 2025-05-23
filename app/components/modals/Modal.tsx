@@ -1,6 +1,14 @@
 'use client';
 
-const Modal: React.FC = () => {
+interface ModalProps {
+    label: string;
+    content: React.ReactElement;
+}
+
+const Modal: React.FC<ModalProps> = ({
+    label,
+    content
+}) => {
     return (
         <div className="flex items-center justify-center fixed inset-0 z-50 bg-black/60">
             <div className="relative w-[90%] md:w-[80%] lg:w-[700px] my-6 mx-auto h-auto">
@@ -13,7 +21,15 @@ const Modal: React.FC = () => {
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
                                 </svg>
                             </div>
+
+                            <h2 className="text-lg font-bold">{label}</h2>
+
                         </header>
+
+                        <section className="p-6">
+                            {content}
+                        </section>
+
                     </div>
                 </div>
             </div>
